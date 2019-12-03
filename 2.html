@@ -1,76 +1,98 @@
 <!doctype html>
 <html>
+
 <head>
   <title>Tottenham Hotspur FC Squad-html</title>
-<meta charset="utf-8">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153442312-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta charset="utf-8">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153442312-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-153442312-1');
-</script>
-<style>
-#active{
-  color:red;
-}
-.saw{
-  color:gray;
-}
-a {
-  color:black;
-  text-decoration: none;
-}
-h1{
-  font-size:45px;
-  text-align: center;
-}
-</style>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-153442312-1');
+  </script>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    h1 {
+      font-size: 45px;
+      text-align: center;
+      border-bottom: 1px solid gray;
+      margin: 0;
+      padding: 20px;
+    }
+
+    ol {
+      border-right: 1px solid gray;
+      width: 150px;
+      margin: 0;
+      padding: 20px;
+    }
+
+    #grid {
+      display: grid;
+      grid-template-columns: 191px 1fr;
+    }
+
+    #grid #article {
+      padding-left: 25px;
+    }
+  </style>
 </head>
+
 <body>
   <h1><a href="index.html">Tottenham Hotspur FC</font></a></h1>
-<ol>
-<li><a href="1.html"class="saw">Tottenham Hotspur FC Introduction</font></a></li>
-<li><a href="2.html"class="saw" id="active">Tottenham Hotspur FC Squad</font></a></li>
-<li><a href="3.html">Tottenham Hotspur FC Match</font></a></li>
-<li><a href="4.html">Tottenham Hotspur FC Chat</font></a></li>
-</ol>
-<!--
-<h1><a href="index.html"><font color="red">Tottenham Hotspur FC</font></a></h1>
-<ol>
-<li><a href="1.html"><font color="red">Tottenham Hotspur FC Introduction</font></a></li>
-<li><a href="2.html"><font color="red">Tottenham Hotspur FC Squad</font></a></li>
-<li><a href="3.html"><font color="red">Tottenham Hotspur FC Match</font></a></li>
-<li><a href="4.html"><font color="red">Tottenham Hotspur FC Chat</font></a></li>
-</ol>
--->
-<h2>Tottenham Hotspur FC Squad</h2><br>
-<p>
-<img src="선수단.jpg" width="80%">
-<br>이상 2019-11-26일 상황
-</p>
-<p>   <div id="disqus_thread"></div>
-<script>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">Tottenham Hotspur FC Introduction</font></a></li>
+      <li><a href="2.html">Tottenham Hotspur FC Squad</font></a></li>
+      <li><a href="3.html">Tottenham Hotspur FC Match</font></a></li>
+      <li><a href="4.html">Tottenham Hotspur FC Chat</font></a></li>
+    </ol>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://web1-vqawusaaj4.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</p>
+    <div id="article">
+      <h2>Tottenham Hotspur FC Squad</h2><br>
+      <p>
+        <img src="선수단.jpg" width="80%">
+        <br>이상 2019-11-26일 상황
+      </p>
+    </div>
+  </div>
+
+  <p>
+    <div id="disqus_thread"></div>
+    <script>
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document,
+          s = d.createElement('script');
+        s.src = 'https://web1-vqawusaaj4.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </p>
 </body>
+
 </html>
